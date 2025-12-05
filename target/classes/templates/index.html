@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman</title>
+    <link rel="icon" type="image/png" href="/images/pacman-icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <input type="text" id="playerNameInput" placeholder="Enter your name" maxlength="15">
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <div id="scoreBoard">
+            <h2>High Scores</h2>
+            <div id="scoreList"></div>
+        </div>
+    </div>
+    <div style="display:none;">
+        <img id="animation" src="/images/animations.gif" width="140" height="20">
+        <img id="ghosts" src="/images/ghost.png" width="140" height="20">
+    </div>
+    <audio id="eatSound" src="/sounds/eat.mp3"></audio>
+    <audio id="deathSound" src="/sounds/death.mp3"></audio>
+    <script src="/js/ghost.js"></script>
+    <script src="/js/pacman.js"></script>
+    <script src="/js/game.js"></script>
+</body>
+</html>
