@@ -1,6 +1,6 @@
 # Pacman Game - Spring Boot
 
-<img src="https://i.imgur.com/sample-pacman.png" width="800">
+<img src="https://i.imgur.com/511xZBb.png" width="800">
 
 ## Stack Utilizadas
 
